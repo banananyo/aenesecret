@@ -13,7 +13,7 @@
         <div class="container" style="padding-top: 20px;">
            <div class="row">
                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                   <h2>เกี่ยวกับเรา</h2>
+                   <h2>บทความ</h2>
                </div>
            </div>
         </div>

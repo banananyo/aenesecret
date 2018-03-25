@@ -11,7 +11,17 @@
 * 	Template Style 
 *
 * ======================================================= */
+:root {
+  --accent-color: #ea0069;
+  --accent-bg-color: #ff51b3;
+  --accent-bright-color: #ff518d;
+  --accent-dark-color: #c60749;
+  --accent-dim-color: #911540;
 
+  --alt-dark-color: #ba007b;
+  --alt-dim-color: #911467;
+  --alt-bright-color: #fc50c2;
+}
 body {
   font-family: "Droid Sans", Arial, sans-serif;
   font-weight: 400;
@@ -49,16 +59,12 @@ body {
   background: rgba(0, 0, 0, 0.7);
   content: "";
 }
-:root {
-  --accent-color: #ff6e00;
-  --accent-bg-color: #ff6e00;
-  --accent-bright-color: #fc8600;
-  --accent-dark-color: #dd5f00;
-  --accent-dim-color: #dd5f00;
 
-  --alt-dark-color: #efc300;
-  --alt-dim-color: #e2c018;
-  --alt-bright-color: #ffd400;
+.text-primary {
+  color: #333;
+}
+.text-primary {
+  color: #666;
 }
 a {
   color: var(--accent-color);
@@ -772,6 +778,11 @@ form label {
   }
 }
 
+.feature-center img {
+  height: 320px;
+  margin-bottom: 12px;
+}
+
 .feature-center .icon {
   width: 90px;
   height: 90px;
@@ -1357,13 +1368,13 @@ form label {
 }
 
 .gtco-nav-toggle.gtco-nav-white>i {
-  color: #fff;
-  background: #fff;
+  color: var(--accent-color);
+  background: var(--accent-color);
 }
 
 .gtco-nav-toggle.gtco-nav-white>i::before,
 .gtco-nav-toggle.gtco-nav-white>i::after {
-  background: #fff;
+  background: var(--accent-color);
 }
 
 .gtco-nav-toggle i::before {
@@ -1602,7 +1613,7 @@ form label {
 
 .btn-white.btn-outline {
   color: #fff;
-  border: 2px solid var(--alt-dark-color);
+  border: 2px solid #FFF;
 }
 
 .btn-white.btn-outline:hover,
@@ -1697,10 +1708,12 @@ form label {
 }
 
 @media screen and (max-width: 768px) {
-  .gtco-nav .gtco-contact {
+  .gtco-nav .gtco-contact{
     text-align: left !important;
   }
+
 }
+
 
 .gtco-nav .gtco-contact ul {
   padding: 0;
@@ -1897,7 +1910,8 @@ form label {
 
 #gtco-portfolio {
   padding: 7em 0;
-  background: var(--alt-bright-color);
+  /* background: var(--alt-bright-color); */
+  background-color: #FFF;
   min-height: 500px;
 }
 
@@ -1907,13 +1921,13 @@ form label {
   }
 }
 
-#gtco-portfolio .gtco-heading h2 {
+/* #gtco-portfolio .gtco-heading h2 {
   color: #fff;
-}
+} */
 
-#gtco-portfolio .gtco-heading p {
+/* #gtco-portfolio .gtco-heading p {
   color: rgba(255, 255, 255, 0.7);
-}
+} */
 
 #gtco-portfolio-list {
   flex-wrap: wrap;
@@ -2232,6 +2246,7 @@ form label {
   height: 140px;
   object-fit: cover;
   margin: -60px auto 40px auto;
+  box-shadow: 2px 2px 10px #333;
 }
 
 .youtube-full-width {
@@ -2244,3 +2259,62 @@ form label {
     height: 256px;
   }
 }
+
+.custom-swiper-image {
+  height: 100vh;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+@media screen and (max-width: 375px) {
+  .custom-swiper-image {
+    height: 352px;
+  }
+  .gtco-heading h2 {
+    font-size: 16px;
+  }
+  .gtco-heading p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 376px){
+  .custom-swiper-image {
+    height: 512px;
+  }
+  .gtco-heading h2 {
+    font-size: 24px;
+  }
+  .gtco-heading p {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1366px) and (min-width: 769px){
+  .custom-swiper-image {
+    height: 768px;
+  }
+  .gtco-heading h2 {
+    font-size: 28px;
+  }
+  .gtco-heading p {
+    font-size: 18px;
+  }
+}
+.logo-img-lg {
+  width: 100%;
+}
+
+.grid-sizer, .grid-item { width: calc(25% - 10px); }
+ @media screen and (max-width: 992px) {
+  .grid-sizer, .grid-item { width: calc(33% - 10px); }
+ }
+ @media screen and (max-width: 768px) {
+  .grid-sizer, .grid-item { width: calc(50% - 10px); }
+ }
+ .read-more{
+   
+   text-align: center;
+   background-color: var(--accent-color);
+ }
+ .read-more a {
+  color: #FFF;
+ }

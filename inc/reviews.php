@@ -1,9 +1,9 @@
 <div id="gtco-portfolio" class="gtco-section">
     <div class="gtco-container">
         <div class="row">
-            <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                <h2>รีวิวจากผู้ใช้</h2>
-                <p>มาฟังผลลัพธ์จากผู้ใช้ผลิตภัณฑ์ของเรากันดีกว่า ว่ามันดีอย่างไร </p>
+            <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box ">
+                <h2 class="text-primary">รีวิวจากผู้ใช้</h2>
+                <p class="text-secondary">มาฟังผลลัพธ์จากผู้ใช้ผลิตภัณฑ์ของเรากันดีกว่า ว่ามันดีอย่างไร </p>
             </div>
         </div>
 
