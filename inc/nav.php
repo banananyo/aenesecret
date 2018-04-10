@@ -3,6 +3,7 @@
         <div id="gtco-logo">
             <img src="images/logo.png" class="nav-logo" alt="">
         </div>
+        <div id="gtco-text-logo" >Aenesecret Thailand</div>
         <div class="row">
             <div class="hidden-xs col-md-12 text-right gtco-contact">
                 <ul class="contact">
@@ -32,8 +33,6 @@
     </div>
 </nav>
 <?php 
-$query = $_SERVER['PHP_SELF'];
-$path = pathinfo( $query );
-$what_you_want = $path['basename'];
-echo '<input type="hidden" id="current-location" value="'.$what_you_want.'" />';
+echo '<input type="hidden" id="current-location" value="'.basename($_SERVER['REQUEST_URI']).'" />';
+echo '<script>console.log("'.basename($_SERVER['REQUEST_URI']).'");</script>';
 ?>

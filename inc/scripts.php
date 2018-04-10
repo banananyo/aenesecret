@@ -51,6 +51,8 @@ var mySwiper = document.querySelector('.swiper-container').swiper
             // if the current path is like this link, make it active
             var splitted = $this.attr('href').split('/');
             var last = splitted[splitted.length-1];
+            console.log(last);
+            console.log(current);
             if(last.indexOf(current) !== -1){
                 $this.addClass('active');
             }

@@ -137,7 +137,7 @@ figure {
 }
 
 .gtco-nav {
-  position: relative;
+  position: absolute;
   top: 0;
   margin: 0;
   padding: 0;
@@ -146,11 +146,13 @@ figure {
   z-index: 1001;
   background-color: #FFF;
   box-shadow: 0 0 10px;
+  height: 120px;
 }
 
 @media screen and (max-width: 768px) {
   .gtco-nav {
     padding: 20px 0;
+    height: 84px;
   }
 }
 
@@ -166,13 +168,21 @@ figure {
   position: absolute;
   top: 0;
 }
-
+@media screen and (min-width: 769px) {
+  .gtco-nav #gtco-logo {
+    display: absolute;
+  }
+  #gtco-text-logo{
+    display: none;
+  }
+ }
 @media screen and (max-width: 768px) {
   .gtco-nav #gtco-logo {
-    display: flex;
-    justify-content: center;
+    display: none;
   }
-  
+  #gtco-text-logo{
+    display: block;
+  }
  }
 
 .gtco-nav #gtco-logo em {
@@ -1771,12 +1781,12 @@ form label {
 
 #gtco-features-3 {
   position: relative;
-  top: -2em;
+  top: 3em;
 }
 
 @media screen and (max-width: 768px) {
   #gtco-features-3 {
-    top: -1em;
+    top: 1em;
   }
 }
 
@@ -2297,7 +2307,7 @@ form label {
 }
 @media screen and (max-width: 375px) {
   .custom-swiper-image {
-    height: 352px;
+    height: 220px;
   }
   .gtco-heading h2 {
     font-size: 22px;
@@ -2308,7 +2318,7 @@ form label {
 }
 @media screen and (max-width: 768px) and (min-width: 376px){
   .custom-swiper-image {
-    height: 512px;
+    height: 460px;
   }
   .gtco-heading h2 {
     font-size: 28px;
@@ -2357,7 +2367,9 @@ form label {
     height: 180px; 
    }
 }
- 
+.swiper-container {
+  margin-top: 120px !important;
+}
  @media screen and (max-width: 768px) {
   .swiper-container {
     margin-top: 84px !important;
