@@ -5,9 +5,9 @@ $password = "";
 $dbname = "aene";
 
 // $servername = "localhost";
-// $username = "dkhousec";
-// $password = "fh5Ye3QcvRq";
-// $dbname = "dkhousec_sogo";
+// $username = "root";
+// $password = "password";
+// $dbname = "aene";
 
 $mysqli = new mysqli($servername, $username, $password, $dbname);
 

@@ -10,7 +10,7 @@
     <div id="page">
         <?php include('inc/nav.php'); ?>
         <?php include('inc/slider.php'); ?>
-        <div class="container" style="padding-top: 20px;">
+        <div class="container" style="padding-top: 20px;background: #FFF">
            <div class="row">
                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
                    <h2>สินค้าของเรา</h2>
@@ -18,7 +18,7 @@
            </div>
            
         </div>
-        <div class="container">
+        <div class="container" style="background: #FFF">
             <div class="row">
                 <div class="col-12">
                     <div class="grid" >

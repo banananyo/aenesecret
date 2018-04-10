@@ -1,10 +1,13 @@
 <nav class="gtco-nav" role="navigation">
     <div class="gtco-container">
+        <div id="gtco-logo">
+            <img src="images/logo.png" class="nav-logo" alt="">
+        </div>
         <div class="row">
             <div class="hidden-xs col-md-12 text-right gtco-contact">
-                <ul class="">
-                    <li><a href="tel:0635345655"><i class="ti-mobile"></i> โทร. 063-534-5655 </a></li>
-                    <li><a href="mailto:aenesecretthailand@gmail.com"><i class="icon-mail2"></i> aenesecretthailand@gmail.com</a></li>
+                <ul class="contact">
+                    <li><a href="tel:0635345655"><i class="ti-mobile"></i><span> โทร. 063-534-5655 </span></a></li>
+                    <li><a href="mailto:aenesecretthailand@gmail.com"><i class="icon-mail2"></i><span> aenesecretthailand@gmail.com</span></a></li>
                     <li><a href="https://www.facebook.com/aenesecretthailandofficial/"><img src="images/facebook/fb_logo_29.png" /></i></a></li>
                     <li><a href="https://www.facebook.com/aenesecretthailandofficial/"><img src="images/line/line_icon.png" /></a></li>
                 </ul>
@@ -12,20 +15,11 @@
         </div>
         <div class="row">
             <div class="col-md-5 col-sm-12 col-xs-12" >
-                <div id="gtco-logo">
-                    <div class="row">
-                        <div class="col-xs-2 col-sm-2 col-md-2">
-                            <img src="images/logo.png" style="height: 64px; border-radius: 50%; box-shadow: 2px 2px 5px #333" alt="">
-                        </div>
-                        <div class="col-xs-10 col-sm-10 col-md-10" style="height:64px; display: flex; align-items: center">
-                            <a href="index.html">Aene Secret Thailand</a>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
             <div class=" col-md-7 col-sm-12 text-right menu-1">
-                <ul class="top-menu-list">
-                    <li class="active"><a href="index.php">หน้าแรก</a></li>
+                <ul class="top-menu-list" id="topMenuList">
+                    <li><a href="index.php">หน้าแรก</a></li>
                     <li><a href="about.php">เกี่ยวกับเรา</a></li>
                     <li><a href="products.php">สินค้า</a></li>
                     <li><a href="reviews.php">รีวิว</a></li>
@@ -37,3 +31,9 @@
 
     </div>
 </nav>
+<?php 
+$query = $_SERVER['PHP_SELF'];
+$path = pathinfo( $query );
+$what_you_want = $path['basename'];
+echo '<input type="hidden" id="current-location" value="'.$what_you_want.'" />';
+?>

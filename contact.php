@@ -10,7 +10,7 @@
     <div id="page">
         <?php include('inc/nav.php'); ?>
         <?php include('inc/slider.php'); ?>
-        <div class="container" style="padding-top: 20px;">
+        <div class="container" style="padding-top: 20px;background: #FFF">
            <div class="row">
                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
                    <h2>ติดต่อเรา</h2>

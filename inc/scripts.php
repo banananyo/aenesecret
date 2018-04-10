@@ -41,3 +41,19 @@ var mySwiper = document.querySelector('.swiper-container').swiper
 // mySwiper.slideNext();
 
 </script>
+
+<script>
+    $(function(){
+        var current = $('#current-location').val();
+        $('#topMenuList li a').each(function(){
+            var $this = $(this);
+            
+            // if the current path is like this link, make it active
+            var splitted = $this.attr('href').split('/');
+            var last = splitted[splitted.length-1];
+            if(last.indexOf(current) !== -1){
+                $this.addClass('active');
+            }
+        })
+    })
+</script>

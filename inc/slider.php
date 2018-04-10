@@ -1,9 +1,9 @@
 <?php 
 $slides = array('images/images_src/slide_1.jpg',
-'images/images_src/slide_2.jpg',
+'images/images_src/slide_4.jpg',
 'images/images_src/slide_3.jpg');
 ?>
-<div class="container-fluid">
+<div class="container">
     <div class="row">
         <div class="col-12">
             <!-- Slider main container -->
