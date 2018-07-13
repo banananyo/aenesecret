@@ -3,7 +3,7 @@
         <div id="gtco-logo">
             <img src="images/logo.png" class="nav-logo" alt="">
         </div>
-        <div id="gtco-text-logo" >Aenesecret Thailand</div>
+        <div id="gtco-text-logo" ><h1>Aene Secret Thailand</h1></div>
         <div class="row">
             <div class="hidden-xs col-md-12 text-right gtco-contact">
                 <ul class="contact">

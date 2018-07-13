@@ -155,7 +155,9 @@ figure {
     height: 84px;
   }
 }
-
+#gtco-text-logo h1{
+  color: var(--accent-color);
+}
 .gtco-nav #gtco-logo {
   font-size: 24px;
   margin: 0;
