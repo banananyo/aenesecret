@@ -18,15 +18,15 @@
            </div>
            
         </div>
-        <div class="container" style="background: #FFF">
+        <!-- <div class="container" style="background: #FFF">
             <div class="row">
                 <div class="col-12">
                     <div class="grid" >
                     <div class="grid-sizer"></div>
                         <?php
-                        include('connect.php');
-                        $res = $conn->query("SELECT * FROM products");
-                        while($row=$res->fetch_assoc()){
+                        // include('connect.php');
+                        // $res = $conn->query("SELECT * FROM products");
+                        // while($row=$res->fetch_assoc()){
                         ?>
                             <div class="grid-item">
                                 <div class="frame">
@@ -45,12 +45,12 @@
                                 </div>
                             </div>
                         <?php
-                        } //while end
+                        // } //while end
                         ?>
                     </div>
                </div>
            </div>
-        </div>
+        </div> -->
 
 
         <?php //include('inc/features.php'); ?>
