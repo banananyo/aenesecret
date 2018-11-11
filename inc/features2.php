@@ -8,37 +8,64 @@
             </div>
             <div class="row">
                 <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
-                    <h2>สินค้าคุณภาพระดับสากล</h2>
-                    <p>ลูกค้าของเราจะได้รับสินค้าที่มีคุณภาพ ได้มาตรฐานในทุก ๆ ชิ้นที่ออกจากโรงงาน</p>
+                    <h2>Review</h2>
+                    <p></p>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3 col-sm-6">
+                <div class="col-sm-12">
                     <div class="feature-center animate-box" data-animate-effect="fadeIn">
-                        <img src="images/images_src/feature_1.jpg" alt="">
-                        <h3>คุณภาพระดับโลก</h3>
-                        <p>ผลิตในโรงงานที่ได้มาตรฐาน ISO</p>
+                        <!-- <img src="images/images_src/feature_1.jpg" alt=""> -->
+                        <!-- <h3>ภาพนิ่ง</h3> -->
+                        <p>ภาพนิ่ง</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-sm-12">
                     <div class="feature-center animate-box" data-animate-effect="fadeIn">
-                    <img src="images/images_src/feature_2.jpg" alt="">
-                        <h3>แหล่งรวมวิตามิน</h3>
-                        <p>นอกจากทำให้ร้างกายเผาผลาญดีแล้ว ยังมีวิตามินเสริมช่วยห้การทำงานของระบบร้างกายดีอยู่เสมอ</p>
+                    <!-- <img src="images/images_src/feature_2.jpg" alt=""> -->
+                        <!-- <h3>VDO</h3> -->
+                        <p>
+                        VDO<br/>
+                        <button class="btn btn-primary">ดูรีวิวเพิ่มเติม</button>
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-sm-12 section-line" >&nbsp;</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                    <h2>โปรโมชั่น</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
                     <div class="feature-center animate-box" data-animate-effect="fadeIn">
-                    <img src="images/images_src/feature_3.jpg" alt="">
-                            <h3>คุณภาพระดับโลก</h3>
-                        <p>ผลิตในโรงงานที่ได้มาตรฐาน ISO</p>
+                    <!-- <img src="images/images_src/feature_3.jpg" alt=""> -->
+                        <!-- <h3>ดูโปรโมชั่นอื่น</h3> -->
+                        <p>
+                            ....<br/>
+                            <button class="btn btn-primary">ดูโปรโมชั่นอื่น</button>
+                        </p>
                     </div>
                 </div>
-                <div class="col-md-3 col-sm-6">
+                <div class="col-sm-12 section-line" >&nbsp;</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center gtco-heading animate-box">
+                    <h2>News & Activities</h2>
+                    <p></p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                <div class="col-sm-12">
                     <div class="feature-center animate-box" data-animate-effect="fadeIn">
-                    <img src="images/images_src/feature_4.jpg" alt="">
-                            <h3>แหล่งรวมวิตามิน</h3>
-                        <p>นอกจากทำให้ร้างกายเผาผลาญดีแล้ว ยังมีวิตามินเสริมช่วยห้การทำงานของระบบร้างกายดีอยู่เสมอ</p>
+                    <!-- <img src="images/images_src/feature_4.jpg" alt=""> -->
+                            <!-- <h3>News & Activities</h3> -->
+                        <p>....<br/></p>
                     </div>
                 </div>
             </div>
