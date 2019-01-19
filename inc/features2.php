@@ -17,7 +17,7 @@
                     <div class="feature-center animate-box" data-animate-effect="fadeIn">
                         <!-- <img src="images/images_src/feature_1.jpg" alt=""> -->
                         <!-- <h3>ภาพนิ่ง</h3> -->
-                        <p>ภาพนิ่ง</p>
+                        <p><img src="images/images_src/feature_1.jpg" alt="" style="height: auto; width: 100%"></p>
                     </div>
                 </div>
                 <div class="col-sm-12">
@@ -25,7 +25,11 @@
                     <!-- <img src="images/images_src/feature_2.jpg" alt=""> -->
                         <!-- <h3>VDO</h3> -->
                         <p>
-                        VDO<br/>
+
+    <div class="video-container">
+        <iframe width="640" height="360" src="https://www.youtube.com/embed/kDMK7PCR-WM" frameborder="0" allowfullscreen></iframe>
+    </div>
+                        <br/>
                         <button class="btn btn-primary">ดูรีวิวเพิ่มเติม</button>
                         </p>
                     </div>
